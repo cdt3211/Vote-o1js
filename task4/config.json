@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "deployAliases": {
+    "devnet": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/devnet.json",
+      "feepayerKeyPath": "C:\\Users\\86136/.cache/zkapp-cli/keys/mina-task4.json",
+      "feepayerAlias": "mina-task4",
+      "fee": "0.1",
+      "smartContract": "CrowdfundingContract"
+    },
+    "task4": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/task4.json",
+      "feepayerKeyPath": "C:\\Users\\86136/.cache/zkapp-cli/keys/mina-task4.json",
+      "feepayerAlias": "mina-task4",
+      "fee": "0.1",
+      "smartContract": "CrowdfundingContract"
+    }
+  }
+}
